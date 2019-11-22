@@ -16,4 +16,3 @@ name = input('Введите имя: ')
 surname = input('Введите Фамилию: ')
 print(f'{year}- года, {month} {day} {name} {surname} - ты чертовски счастливый!!') # выведите на экран.
 
-## OK
