@@ -24,7 +24,7 @@ if sotrudniki > 0:
 
 else:
     print(f'Работаем {pribil} в минус !!!')
-
+## OK
 
 
 

@@ -17,3 +17,4 @@ if  time != 0:  # Да тут коряво !!! Если ввести букву 
     print(f'{hours}:{minutes}:{seconds}')
 
 
+## OK
