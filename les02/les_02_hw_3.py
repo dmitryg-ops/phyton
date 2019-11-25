@@ -4,23 +4,16 @@
 Напишите решения через list и через dict.
 """
 
-months = {
-'1': 'jan', 'type': int,
-'2': 'feb', 'type': int,
-'3': 'mar', 'type': int,
-'4': 'apr', 'type': int,
-'5': 'may', 'type': int,
-'6': 'jun', 'type': int,
-'7': 'jul', 'type': int,
-'8': 'aug', 'type': int,
-'9': 'sep', 'type': int,
-'10': 'oct', 'type': int,
-'11': 'nov', 'type': int,
-'12': 'dec', 'type': int,
+# Создаём словарь.
+seasons = {
+           'Зима': (1, 2, 12),
+           'Весна': (3, 4, 5),
+           'Лето': (6, 7, 8),
+           'Осень': (9, 10, 11)
 }
-
-for quest in months:
-    tmp = input('Введите число: ')
-
-print()
+# Просим пользователя ввести
+month = int(input('Выберите месяц: '))
+for key in seasons.keys():           # Создаём цикл по поиску ключа в словаре
+    if month in seasons[key]:
+        print(key)
 
